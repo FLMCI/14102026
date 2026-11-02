@@ -1,0 +1,19 @@
+[project]
+name = "14102026"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "",email = ""},
+]
+dependencies = ["requests[socks]>=2.34.2", "flask>=1.0", "flask-sqlalchemy>=3.1.1", "numpy>=2.5.4"]
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
